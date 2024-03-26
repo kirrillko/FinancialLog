@@ -1,0 +1,24 @@
+для работы с бд используется библиотека Room
+
+MainActivity.java - главное окно
+Utils.java - вспомогательные функции
+FilterActivity.java - Окно для поиска записей
+AddCategoryActivity.java - Окно для работы с записями Категорий
+AddActivity.java - Окно для добавления записей о доходах/расходах
+
+папка db
+CategoryDao.java - работа с таблицей в бд
+FinancialRecordDao.java - работа с таблицей в бд
+FinancialRecordDatabase.java - создание бд
+
+папка models
+Category.java - класс Категории, для этого класса создается таблица в бд
+FinancialRecord.java - класс Записи, для этого класса создается таблица в бд
+FinancialRecordInfo.java - Класс используется для вывода списка записей
+
+папка adapters
+AdapterWithDelete.java - Интерфейс, объединяет классы адаптеров в один тип
+CategoryAdapter.java - адаптер для вывода списка категорий
+FinancialRecordInfoAdapter.java - адаптер для вывода списка записей
+SwipeToDeleteCallback.java - класс позволяющий удалять свайпом
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_add"
+        android:title="Добавить" />
+    <item
+        android:id="@+id/item_category"
+        android:title="Категории" />
+    <item
+        android:id="@+id/item_filter"
+        android:title="Фильтр" />
+    <item
+        android:id="@+id/item_ballance"
+        android:title="Баланс" />
+</menu>

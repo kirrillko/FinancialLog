@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_date"
+        android:title="Фиксированный" />
+    <item
+        android:id="@+id/item_period"
+        android:title="За период" />
+</menu>

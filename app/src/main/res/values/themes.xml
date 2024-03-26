@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FinancialMagazine" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="actionOverflowButtonStyle">@style/MyOverflowButtonStyle</item>
+        <item name="android:itemTextAppearance">@style/menu_item_color</item>
+    </style>
+
+    <style name="menu_item_color">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="Theme.FinancialMagazine" parent="Base.Theme.FinancialMagazine" />
+
+    <style name="MyOverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">#ffffff</item>
+    </style>
+</resources>
